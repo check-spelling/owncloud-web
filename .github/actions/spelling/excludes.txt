@@ -1,0 +1,26 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+ignore$
+\.avi$
+\.ico$
+\.jpe?g$
+\.lock$
+\.map$
+\.min\..
+\.mod$
+\.mp[34]$
+\.png$
+\.wav$
+^packages/.*/l10n/translations\.json$
+^tests/acceptance/filesForUpload/
+^\.github/
+^\Qdev/docker/oc10.entrypoint.sh\E$
+^\Qpackages/web-app-files/src/fileTypeIconMappings.json\E$
+^\Qpackages/web-runtime/.depcheckrc\E$
+^\QREADME.md\E$
+^\Qtests/drone/config-oc10-integration-app-oauth.json\E$
+^\Qtests/drone/config-oc10-oauth.json\E$
+^\Qtests/drone/setup-oauth2.sh\E$
