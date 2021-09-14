@@ -90,7 +90,7 @@ describe('Details SideBar Accordion Item', () => {
       })
     })
     describe('on a public page', () => {
-      it('with owner, timestap, size info and no share info', () => {
+      it('with owner, timestamp, size info and no share info', () => {
         const wrapper = createWrapper(sharedFolder, [], null, true)
         expect(wrapper.find(selectors.noContentText).exists()).toBeFalsy()
         expect(wrapper.find(selectors.timestamp).exists()).toBeTruthy()
@@ -150,7 +150,7 @@ describe('Details SideBar Accordion Item', () => {
       })
     })
     describe('on a public page', () => {
-      it('with owner, timestap, size info, no share info and preview', () => {
+      it('with owner, timestamp, size info, no share info and preview', () => {
         const wrapper = createWrapper(sharedFile, [], null, true)
         expect(wrapper.find(selectors.noContentText).exists()).toBeFalsy()
         expect(wrapper.find(selectors.timestamp).exists()).toBeTruthy()
