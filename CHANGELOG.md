@@ -1338,7 +1338,7 @@ Details
 
 * Enhancement - Use ODS translations: [#4934](https://github.com/owncloud/web/pull/4934)
 
-   Some ODS components were using their own translation strings which were availabel in the ODS
+   Some ODS components were using their own translation strings which were available in the ODS
    but not exported there/imported in the web project. Now, we import the translation strings
    from the ODS package and merge them with the web translations.
 
@@ -1779,7 +1779,7 @@ Details
 
    The label in the text editor that displays the path of the active file was removing the first
    character instead of trimming leading slashes. This might have lead to situations where
-   actual characters were removed. We fixed this by only removing leading slahes instead of
+   actual characters were removed. We fixed this by only removing leading slashes instead of
    blindly removing the first character.
 
    https://github.com/owncloud/web/pull/4391
@@ -3157,7 +3157,7 @@ Details
    A recent library update in ODS for the recycle scroller seem to have changed the logic or
    calculation of the height.
 
-   This fix accomodates for that change and restores the row height to a correct value.
+   This fix accommodates for that change and restores the row height to a correct value.
 
    The shared file lists are now more responsive, the collaborators/owner and share time columns
    are now hidden on small screens.
@@ -3400,7 +3400,7 @@ Details
    We've stopped escaping translations which contained resource names or user names because
    they can contain special characters which were then not properly displayed. We've done this
    only with translations which are using mustache syntax which does escaping on its own so we
-   don't introduce poteintial XSS vulnerability. For all other translations, we've explicitly
+   don't introduce potential XSS vulnerability. For all other translations, we've explicitly
    set the escaping.
 
    https://github.com/owncloud/web/pull/3032
